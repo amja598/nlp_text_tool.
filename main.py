@@ -120,7 +120,7 @@ while True:
 
     else:
          print("invalid option. Please choose either 'file' or 'web' or 'exit'.") 
-         exit()
+         continue
   except FileNotFoundError:
     print("File not found. Please check the file path.")
     continue
